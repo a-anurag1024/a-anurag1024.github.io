@@ -1,0 +1,165 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+<section id="projects" class="projects-section">
+  <h2>💻 Tech Projects</h2>
+
+  <div class="projects-container">
+
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <h3>🧠 RevQuiz </h3>
+      <ul>
+        <li>Autonomous quiz generator and evaluator </li>
+        <li>Bring Your Own source or instructions on creating quizzes. Both Objective and Descriptive formats supported.</li>
+        <li>An end-to-end highly scalable cloud native solution.</li>
+      </ul>
+      <div class="project-links">
+        <a href="https://revquiz.agentsensemble.com/" target="_blank">🔗 Visit Product</a>
+      </div>
+      <p class="timestamp">📅 Started: July 2025</p>
+      <a href="https://revquiz.agentsensemble.com/" class="show-more">Show more →</a>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <h3>📊 Data Science Job Market Demand Analysis</h3>
+      <ul>
+        <li>Performed large-scale data collection and visualization to analyze hiring trends in Data Science.</li>
+        <li>Implemented NLP-based job description analysis to extract high-demand skill clusters.</li>
+        <li>Presented insights via interactive dashboard.</li>
+      </ul>
+      <div class="project-links">
+        <a href="https://github.com/a-anurag1024/li_jobs_collector" target="_blank">Job Postings Collector</a>
+        <a href="https://github.com/a-anurag1024/jobs-data-mining" target="_blank">Jobs Data Mining</a>
+        <a href="https://github.com/a-anurag1024/jobs-analytics-dashboard" target="_blank">Jobs Analytics Dashboard</a>
+      </div>
+      <p class="timestamp">📅 Completed: Sept 2024</p>
+    </div>
+
+    <!-- Project Card: Personal Gmail Classifiers -->
+    <div class="project-card">
+    <h3>📬 Personal Gmail Classifiers</h3>
+    <ul>
+        <li>Developed a Gmail API wrapper to securely collect and manage emails from a personal Gmail account.</li>
+        <li>Leveraged <strong>Ollama</strong> and <strong>LangChain</strong> to extract and structure useful information from raw emails.</li>
+        <li>Implemented a <strong>multi-class classification pipeline</strong> using a lightweight, <strong>knowledge-distilled</strong> model to predict email categories and suggested actions from subject lines.</li>
+    </ul>
+    <div class="project-links">
+        <a href="https://github.com/a-anurag1024/ollama-mail-processor" target="_blank">Mail Classifiers</a>
+        <a href="https://github.com/a-anurag1024/mail-collector" target="_blank">Mail Collector</a>
+    </div>
+    <p class="timestamp">📅 Completed: July 2024</p>
+    </div>
+
+    <!-- Project Card: Bank Marketing Campaign Classifier -->
+    <div class="project-card">
+    <h3>🏦 Bank Marketing Campaign Classifier</h3>
+    <ul>
+        <li>Developed a machine learning solution to <strong>predict the success of bank marketing campaigns</strong> using a publicly available dataset.</li>
+        <li>Experimented with multiple classifiers and achieved optimal performance with a <strong>4-layer Artificial Neural Network (ANN)</strong>.</li>
+        <li>Delivered strong results with an <strong>AUC of 0.86</strong> and <strong>ALIFT of 0.82</strong>, outperforming benchmarks from the original research paper.</li>
+    </ul>
+    <div class="project-links">
+        <a href="https://github.com/a-anurag1024/Bank_Marketing" target="_blank">📄 GitHub Repository</a>
+    </div>
+    <p class="timestamp">📅 Completed: June 2024</p>
+    </div>
+    
+    <!-- Project Card: Flipkart Review Scrapping -->
+    <div class="project-card">
+    <h3>🛒 Flipkart Review Scrapping</h3>
+    <ul>
+        <li>Built a Python-based tool to <strong>scrape product review data</strong> from the Flipkart e-commerce platform using <strong>Selenium</strong>.</li>
+        <li>Performed <strong>basic analytics and sentiment exploration</strong> on the collected review dataset to uncover customer insights.</li>
+        <li>Utilized <strong>CassandraDB</strong> for efficient storage and retrieval of large-scale review data.</li>
+    </ul>
+    <div class="project-links">
+        <a href="https://github.com/a-anurag1024/flipkart-review-scrapping" target="_blank">📄 GitHub Repository</a>
+    </div>
+    <p class="timestamp">📅 Completed: July-August 2022</p>
+    </div>
+  </div>
+</section>
+
+<!-- Minimal Styling -->
+<style>
+  .projects-section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+  }
+
+  .projects-section h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #222;
+    text-align: center;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    }
+
+  .project-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-card h3 {
+    font-size: 1.3rem;
+    color: #111;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-card ul {
+    margin: 0.5rem 0 1rem 1rem;
+    color: #333;
+  }
+
+  .project-links a {
+    margin-right: 1rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+
+  .timestamp {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+
+  .show-more {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .show-more:hover {
+    text-decoration: underline;
+  }
+
+</style>
